@@ -1,0 +1,245 @@
+/* nav css */
+html body{
+    line-height: 28px;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+/*Reuseable */
+.started-button{
+    background: #21B573;
+    padding: 5px 26px;
+    border-radius: 33px;
+    color: #fff;
+    -webkit-border-radius: 33px;
+    -moz-border-radius: 33px;
+    -ms-border-radius: 33px;
+    -o-border-radius: 33px;
+}
+.started-button:hover{
+    color: #fff;
+}
+.text-color{
+    color: rgb(65,57,96);
+}
+.divider{
+    display: inline-block;
+    margin:  auto;
+    width: 143px;
+}
+/* reusable end */
+.btn-signin{
+    background: rgb(33,181,115);
+    color: #fff;
+    font-size: 17px;
+    padding: 10px;
+    margin-left: 20px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+.btn-signin:hover{
+    color: #fff;
+    background: tomato;
+}
+.navbar{
+    background: rgb(217, 251, 217)!important;
+}
+nav ul li{
+    padding: 5px 5px;
+}
+nav ul li a:hover{
+    color: tomato!important;
+    
+}
+nav ul li a{
+    font-size: 20px;
+}
+
+nav img{
+    width: 120px;
+}
+
+/* welcome header section css */
+.header-sec {
+    background:rgb(217, 251, 217);
+    margin-top: 24px;
+}
+#header-section h6{
+    color: tomato;
+}
+#header-section span{
+    color:rgb(33,181,115); 
+}
+
+#header-section p{
+color:rgb(108,107,107)!important;
+}
+
+/* progress/reviews section */
+.progres{
+    background: rgb(214, 226, 225);
+}
+.progres img{
+    height: 150px;
+    width: 100px;
+    text-align: center;
+}
+.progres .card-shadow {
+    box-shadow: 1px 3px 5px 2px;
+    border: 1px solid green;
+}
+.progres .card-title{
+    color: rgb(65,57,96);
+}
+
+
+
+/*--------------------------------------------------------------
+# Testimonial Section
+--------------------------------------------------------------*/
+#testimonial .test-img{
+    
+        position: absolute;
+        width: 121px;
+        height: 137px;
+        left: 275px;
+        top: -34px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    
+/*--------------------------------------------------------------
+# Service Sections
+--------------------------------------------------------------*/
+.services-section{
+    background:url(img/bg.jpg) center center; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding:60px 0;
+   
+}
+
+.inner-width{
+    width:100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+    overflow: hidden;
+}
+
+.services-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.service-box{
+    max-width: 33.33%;
+    padding:10px;
+    text-align: center;
+    color:#ddd;
+    cursor: pointer;
+}
+
+.service-icon{
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    border: 3px solid #82ccdd;
+    color: #82ccdd;
+    transform: rotate(45deg);
+    margin-bottom: 30px;
+    margin-top: 16px;
+}
+
+.service-icon i{
+    line-height: 70px;
+    transform: rotate(-45deg);
+    font-size: 26px;
+    margin-left: -20px;
+ 
+}
+.service-icon .fas{
+    margin-left: -55px;
+}
+
+.service-box:hover .service-icon{
+   background: #82ccdd;
+    color:#ddd;
+}
+.service-title{
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.service-desc
+{
+    font-size: 16px;
+}
+
+/*--------------------------------------------------------------
+# Footer Section
+--------------------------------------------------------------*/
+footer{
+    background: #282531;
+}
+footer ul li{
+    list-style: none;
+}
+footer ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+}
+footer ul li a:hover{
+    color: tomato;
+    text-decoration: none;
+}
+
+
+
+    @media(max-width:420px){
+        #testimonial .test-img{
+        position: absolute;
+        
+        left: 63px;
+        top: 0px;
+        width: 150px;
+        height: 150px;
+        line-height: 17px;
+        }
+        #testimonial .collum-margin{
+            margin-top: 250px;
+        }
+    }
+    @media(max-width:375px){
+        #testimonial .test-img{
+        position: absolute;
+      
+        left: 63px;
+        top: 0px;
+        width: 150px;
+        height: 150px;
+        line-height: 17px;
+        }
+        #testimonial .collum-margin{
+            margin-top: 250px;
+        }
+    }
+    @media(max-width:320px){
+        #testimonial .test-img{
+            width: 150px;
+            height: 150px;
+            line-height: 17px;
+        }
+        #testimonial .collum-margin{
+            margin-top: 250px;
+        }
+    }
